@@ -1,0 +1,31 @@
+.flex-container {
+    border:2px solid rgb(177, 14, 14);
+    padding: 10px;
+    min-height: 100px;
+    display: flex; /* Enables flexbox layout */
+    flex-wrap: wrap; /* Allows items to wrap onto multiple lines */
+    flex-direction: row;
+    
+
+}
+.flex-item {
+    border: 1px solid rgb(6, 74, 119);
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    font-weight: bold;
+    width: 300px;
+}
+#child-1 {
+    background-color: lightblue;
+}
+.child-2 {
+    background-color: lightgreen;
+}
+.child-3 {
+    background-color: lightcoral;
+    
+}
+.child-4 {
+    background-color: rgb(145, 145, 11);
+}
