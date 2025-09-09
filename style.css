@@ -1,20 +1,26 @@
 .flex-container {
     border:2px solid rgb(177, 14, 14);
-    padding: 10px;
-    min-height: 100px;
+    padding: 20px;
+    min-height: 100vh;
     display: flex; /* Enables flexbox layout */
     flex-wrap: wrap; /* Allows items to wrap onto multiple lines */
     flex-direction: row;
-    
-
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically */
+    gap: 20px; /* Consistent spacing between items */
 }
 .flex-item {
     border: 1px solid rgb(6, 74, 119);
-    padding: 10px;
-    margin: 5px;
+    padding: 20px;
     text-align: center;
     font-weight: bold;
-    width: 300px;
+    flex: 1 1 250px; /* grow | shrink | basis */
+    min-width: 250px;
+    max-width: 300px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #child-1 {
     background-color: lightblue;
